@@ -25,7 +25,7 @@ padding:30px 30px 30px 85px;
   /* float:right; */
 }
 
-.nav_content li a:hover{
+.nav_content li a:hover ,.submit-button:hover{
     background-color: white;
     color:black;
     box-shadow: 0 0 10px white ;
@@ -73,7 +73,7 @@ padding:30px 30px 30px 85px;
 .submit-button {
     padding: 15px;
     background-color: rgb(125, 173, 173);
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 
