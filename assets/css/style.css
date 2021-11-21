@@ -4,111 +4,109 @@ body, html {
 }
 
 
-.hero-image{
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/travel.jpg");
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/travel.jpg");
 
-height: 100vh;
-background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-
-  .hero-text{
-  text-align: center;
-  font-size: 30px;
-  color:white;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.input{
-padding: 15px;
-border-radius: 8px;
-width: 20%;
-margin-top: 25px;
+.hero-text {
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
 
-.submit-button{
-padding: 15px;
-background-color: rgb(125, 173, 173);
-border-radius: 8px;
+.input {
+    padding: 15px;
+    border-radius: 8px;
+    width: 20%;
+    margin-top: 25px;
 }
 
-.card-list{
+.submit-button {
+    padding: 15px;
+    background-color: rgb(125, 173, 173);
+    border-radius: 8px;
+}
+
+.card-list {
     padding: 0 5%;
-background-color: darkslategrey;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-height: 100%;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
 
-.card{
-width: 20%;
-max-height: 600px;
+.card {
+    width: 20%;
+    max-height: 600px;
 }
 
-.card-image img{
+.card-image img {
     width: 100%;
     aspect-ratio: 4/3;
     border-radius: 10% 10% 0 0;
 }
 
-.card-body{
-background-color: white;
-height: 250px;
-text-align: center;
-padding: 10px;
-margin-top: -5px;
+.card-body {
+    background-color: white;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -5px;
 }
 
 
-.card-footer{
-display: flex;
-justify-content: space-around;
-border-radius: 0 0 20% 20%;
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 20% 20%;
 }
 
 
 
-.info{
-height: 50px;
-width: 100%;
-padding: 5px;
-text-align: center;
-color: white;
+.info {
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: white;
 }
 
-.info:nth-child(2){
-    border:solid black;
+.info:nth-child(2) {
+    border: solid black;
     border-width: 0 1px;
 }
 
 
 
-.green .date{
+.green .date {
     color: green;
-} 
-    
-.green .card-footer{
+}
+
+.green .card-footer {
     background-color: green;
 }
 
-.purple .date{
+.purple .date {
     color: purple;
-} 
-    
-.purple .card-footer{
+}
+
+.purple .card-footer {
     background-color: purple;
 }
 
-.orange .date{
+.orange .date {
     color: orange;
-} 
-    
-.orange .card-footer{
-    background-color: orange;
 }
 
-
+.orange .card-footer {
+    background-color: orange;
+}
