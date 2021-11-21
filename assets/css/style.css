@@ -132,6 +132,11 @@ padding:30px 30px 30px 85px;
  display: inline;
 }
 
+.card-body h2:hover{
+    border-bottom: 1px solid rgb(86 122 122);
+    border-radius: 22px;
+   
+}
 /* div.card.orange:hover{
   box-shadow: white 0 0 10px rgb(125,173,173,173);
   background-color: rgb(125, 173, 173);
